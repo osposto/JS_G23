@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Material Symbols Outlined";
+    font-style: normal;
+    src: url(/assets/Fonts/MaterialSymbolsSharp[FILL\,GRAD\,opsz\,wght].woff2) format("woff");
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* border: 1px solid red;*/
+}
+body {
+    background-color: rgb(5, 54, 16);
+  }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family);
+}

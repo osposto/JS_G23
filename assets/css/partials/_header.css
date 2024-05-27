@@ -1,0 +1,127 @@
+/* NavBar*/
+
+.menu_m,
+.menu_m1{
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px; /* Preferred icon size */
+  /*display: inline-flex;*/
+  background-color: rgb(5, 54, 16);
+  line-height: 1.5;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu_m1
+{
+    background-color: rgb(231, 42, 216);
+  }
+
+.check
+{
+  display: none;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: end; /*Vertical*/
+  }
+  
+  /*.a-container {
+    text-decoration: none;
+    max-width: 15vw;
+    min-width: 100px;
+  }*/
+  
+  .a-container img {
+    /*display:inline-flex;*/
+    /*border: 2px;
+    border-style: solid;
+    border-color: black;*/
+    max-width: 60vw;
+    min-width: 50px;
+    /*max-height: auto;*/
+  }
+  
+  .nav-container {
+    color: azure;
+    display: inline-flex;
+    padding: 0px;
+    width: 92vw;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    display: none;
+    color: white;
+    /*width: 80vw;*/
+    margin: 0px;
+    /*width: 80vw;*/
+    text-wrap: nowrap;
+    padding: 0px;
+  }
+  
+  li {
+    /* quitar viñetas */
+    display: none;
+    list-style: none;
+    text-wrap: nowrap;
+    padding: 0px 20px 0px 20px;
+  }
+  .aside_grid{grid-area: aside; }
+  .main_grid{grid-area: main; }
+  .grid_container{
+    display:grid;
+    gap: 25px;
+    grid-template-areas: 'aside aside main main main main main';
+  }
+
+
+  /*.check:checked + .menu{
+    display: grid;
+    grid-auto-flow: row;
+    position: fixed;
+    top: 90px;
+    right: 0px;
+    
+    width: 50%;
+    background-color: var(--head-back);
+    justify-content: center;
+    z-index: 2;
+  }*/
+
+/*.menu-hamb{
+  display: inline-flex;
+  }*/
+
+
+
+
+/*nav {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background-color: var(--bg-color);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav h1 {
+    color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;    
+    gap: 40px;
+}*/

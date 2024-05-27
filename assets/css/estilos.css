@@ -1,0 +1,16 @@
+body{
+  height: 100vh;
+}
+ul {
+  /* quitar viñetas */
+  list-style: none;
+  padding: 0;
+}
+.body-style {
+  min-height: 100%;
+  background-color: rgb(5, 54, 16);
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

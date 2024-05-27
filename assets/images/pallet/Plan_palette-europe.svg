@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="984" height="630" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans">
+  <defs>
+    <marker id="arr" orient="auto-start-reverse" overflow="visible">
+      <path transform="scale(.6)" fill="#828282" stroke="#828282" stroke-width="1pt" d="m4.5,0 -8.65-5v10z"/>
+    </marker>
+    <marker id="arr2" orient="auto-start-reverse" overflow="visible">
+      <path transform="scale(-.6)" fill="#828282" stroke="#828282" stroke-width="1pt" d="m4.5,0 -8.65-5v10z"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#000" stroke-width="3.94675183">
+    <ellipse cx="278.25" cy="436" rx="56.25" ry="33.25" transform="matrix(1.0133333,0,0,1.01365,-3.21,-5.7014)"/>
+    <ellipse cx="278.25" cy="436" rx="56.25" ry="33.25" transform="matrix(1.0133333,0,0,1.01365,-133.4422,-5.7014)"/>
+  </g>
+  <text font-family="Nimbus Roman No9 L" font-size="42" text-anchor="middle" x="280.75" y="450.5">EUR</text>
+  <g id="tx_EPAL">
+    <path d="m110.0625,417.90625 0,34.59375 15.96875,0 0,-3 -12.96875,0 0,-12.59375 12.96875,0 0,-3 -12.96875,0 0,-13 12.96875,0 0,-3 -15.96875,0z"/>
+    <path d="m176.0625,417.78125 0,34.71875 15.96875,0 0,-3 -12.96875,0 0,-31.71875 -3,0z"/>
+    <path d="m131.4375,417.90625 0,35.09375 3,0 0,-14.9375 6.6875,0 c 0,0 0.0307,-2e-5 0.0312,0 0.0496,0.002 2.13323,0.0561 4.21875,-1.21875 2.11042,-1.2901 4.125,-4.09802 4.125,-8.875 0,-4.77699 -2.01458,-7.55365 -4.125,-8.84375 -2.08552,-1.27488 -4.16913,-1.22026 -4.21875,-1.21875 l -0.0312,0 -9.6875,0 z m 3,3 6.71875,0 0.0312,0 c 0,0 1.30995,-0.0226 2.625,0.78125 1.31505,0.80389 2.6875,2.28517 2.6875,6.28125 0,3.99608 -1.37245,5.50861 -2.6875,6.3125 -1.31505,0.80389 -2.625,0.78125 -2.625,0.78125 l -0.0312,0 -6.71875,0 0,-14.15625z"/>
+    <path d="m159.46875,417.8125 -12.5,35.1875 3.15625,0 3.9375,-11.0625 13.6875,0 3.96875,11.0625 3.0625,0 -12.5,-35.1875 -2.8125,0 z m 1.40625,4.96875 5.8125,16.15625 -11.5625,0 5.75,-16.15625z"/>
+  </g>
+  <g fill="#ffca65" stroke="#ca6500" stroke-width="2">
+    <path d="m745,285 0,218 -56,0 0,-218 56,0z" fill="#ff9a65"/>
+    <path d="m955,285 0,218 -56,0 0,-218 56,0z" fill="#ff9a65"/>
+    <path d="m533,285 0,218 -56,0 0,-218 56,0z" fill="#ff9a65"/>
+    <path d="m477,497 478,0 0,46 -10,10 -458,0 -10,-10 0,-46z"/>
+    <path d="m955,292 -478,0 0,-47 10,-10 458,0 10,10 0,47z"/>
+    <path d="m955,349 -478,0 0,-38 478,0 0,38z"/>
+    <path d="m955,479 -478,0 0,-38 478,0 0,38z"/>
+    <path d="m955,423 -478,0 0,-56 478,0 0,56z"/>
+    <path d="m407,30 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m407,38 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m407,46 0,40 -8,0 0,-40 8,0z" fill="#ff9a65"/>
+    <path d="m407,86 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m399,46 0,40 -30,0 0,-40 30,0z"/>
+    <path d="m399,86 0,8 -30,0 0,-8 30,0z"/>
+    <path d="m399,38 0,8 -302,0 0,-8 302,0z"/>
+    <path d="m97,30 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m97,38 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m97,46 0,40 -8,0 0,-40 8,0z" fill="#ff9a65"/>
+    <path d="m97,86 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m127,46 0,40 -30,0 0,-40 30,0z"/>
+    <path d="m127,86 0,8 -30,0 0,-8 30,0z"/>
+    <path d="m277,46 0,40 -56,0 0,-40 56,0z"/>
+    <path d="m277,86 0,8 -56,0 0,-8 56,0z"/>
+    <path d="m277,30 0,8 -56,0 0,-8 56,0z"/>
+    <path d="m399,30 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m145,30 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m203,30 0,8 -38,0 0,-8 38,0z"/>
+    <path d="m333,30 0,8 -38,0 0,-8 38,0z"/>
+    <path d="m485,30 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m533,30 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m485,38 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m533,38 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m485,46 0,40 -8,0 0,-40 8,0z" fill="#ff9a65"/>
+    <path d="m533,46 0,40 -48,0 0,-40 48,0z"/>
+    <path d="m485,86 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m533,86 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m745,38 0,8 -56,0 0,-8 56,0z"/>
+    <path d="m745,46 0,40 -56,0 0,-40 56,0z"/>
+    <path d="m947,30 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m947,38 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m947,46 0,40 -48,0 0,-40 48,0z"/>
+    <path d="m947,86 0,8 -48,0 0,-8 48,0z"/>
+    <path d="m955,30 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m955,38 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m955,46 0,40 -8,0 0,-40 8,0z" fill="#ff9a65"/>
+    <path d="m955,86 0,8 -8,0 0,-8 8,0z" fill="#ff9a65"/>
+    <path d="m899,30 0,8 -366,0 0,-8 366,0z"/>
+    <path d="m899,86 0,8 -366,0 0,-8 366,0z"/>
+    <path d="m677,34 4,4 -138,0 4,-4 130,0z" fill="#ff9a65"/>
+    <path d="m887,34 4,4 -138,0 4,-4 130,0z" fill="#ff9a65"/>
+    <path d="m887,90 4-4 -138,0 4,4 130,0z" fill="#ff9a65"/>
+    <path d="m677,90 4-4 -138,0 4,4 130,0z" fill="#ff9a65"/>
+  </g>
+  <text style="font-size:28px;text-anchor:middle;fill:#000000;stroke:none" x="214.19444" y="372.5">PALETTE EUR–EPAL ©</text>
+  <path stroke="#828282" d="m476.5,564v43"/>
+  <path stroke="#828282" d="m955.5,564v43"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m479.5,595.48435 472,0.0331"/>
+  <g font-size="16" text-anchor="middle">
+    <text x="715.65625" y="177.02344">1200</text>
+    <text x="715.65625" y="593.04083">1200</text>
+    <text x="-394.41406" y="429.02344" transform="rotate(-90)">800</text>
+  </g>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m431.5,551.5v-313"/>
+  <path stroke="#828282" d="m425.5,554.5 43,0"/>
+  <path stroke="#828282" d="m425.5,234.5 43,0"/>
+  <path stroke="#828282" d="m476.5,104v87"/>
+  <path stroke="#828282" d="m955.5,104v87"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m480,179.5 471.5,0"/>
+  <path stroke="#828282" d="m533.5,104v43"/>
+  <path stroke="#828282" d="m689.5,104v43"/>
+  <path stroke="#828282" d="m745.5,104v43"/>
+  <path stroke="#828282" d="m899.5,104v43"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m480,131.5 49.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m537,131.5 148.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m693,131.5 48.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m749,131.5 146.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m903,131.5 48.5,0"/>
+  <g font-size="16" text-anchor="middle">
+    <text x="717.32422" y="129.02344">145</text>
+    <text x="822.59375" y="129.02344">382,5</text>
+    <text x="927.32422" y="129.02344">145</text>
+    <text x="504.82422" y="129.02344">145</text>
+    <text x="611.59375" y="129.02344">382,5</text>
+  </g>
+  <path stroke="#828282" d="m88.5,104v87"/>
+  <path stroke="#828282" d="m408.5,104v87"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m92,179.5 312.5,0"/>
+  <path stroke="#828282" d="m127.5,104v37"/>
+  <path stroke="#828282" d="m145.5,56v113"/>
+  <path stroke="#828282" d="m165.5,56v85"/>
+  <path stroke="#828282" d="m203.5,56v113"/>
+  <path stroke="#828282" d="m220.5,104v65"/>
+  <path stroke="#828282" d="m277.5,104v37"/>
+  <path stroke="#828282" d="m368.5,104v37"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m92,157.5 49.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr2);marker-end:url(#arr2)" d="m200,157.5 23.5,0"/>
+  <path stroke="#828282" d="m221,157.5 33.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m92,131.5 31.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m168.5,131.5 31,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m223.5,131.5 50.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m280.5,131.5 84.5,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m372,131.5 32.5,0"/>
+  <g font-size="16" text-anchor="middle">
+    <text x="388.15625" y="129.02344">100</text>
+    <text x="323.11719" y="129.02344">227,5</text>
+    <text x="248.82422" y="129.02344">145</text>
+    <text x="184.15625" y="129.02344">100</text>
+    <text x="107.65625" y="129.02344">100</text>
+    <text x="116.82422" y="155.02344">145</text>
+    <text x="278.49219" y="177.02344">800</text>
+    <text x="238.49219" y="155.02344">40</text>
+  </g>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m21.5,90v-56.5"/>
+  <path stroke="#828282" d="m14.5,29.5 64,0"/>
+  <path stroke="#828282" d="m14.5,93.5 64,0"/>
+  <path stroke="#828282" d="m40.5,37.5 38,0"/>
+  <path stroke="#828282" d="m40.5,45.5 38,0"/>
+  <path stroke="#828282" d="m59.5,85.5 19,0"/>
+  <path style="stroke:#828282;marker-start:url(#arr);marker-end:url(#arr)" d="m72.5,82v-32.5"/>
+  <path style="stroke:#828282;marker-start:url(#arr2);marker-end:url(#arr2)" d="m47.5,49v-14.5"/>
+  <path style="stroke:#828282;marker-start:url(#arr2);marker-end:url(#arr2)" d="m65.5,97v-14.5"/>
+  <path stroke="#828282" d="m47.5,72v-26.5"/>
+  <path stroke="#828282" d="m65.5,122v-26.5"/>
+  <path style="stroke:#828282;marker-start:url(#arr2);marker-end:url(#arr2)" d="m65.5,41v-14.5"/>
+  <path stroke="#828282" d="m65.5,30v-26.5"/>
+  <g transform="rotate(-90)" font-size="16" text-anchor="middle">
+    <text x="-65.605469" y="70.023438">78</text>
+    <text x="-109.60547" y="63.25">22</text>
+    <text x="-60.605373" y="45.25">22</text>
+    <text x="-61.925781" y="19.25">144</text>
+    <text x="-14.605469" y="63.25">22</text>
+  </g>
+</svg>
