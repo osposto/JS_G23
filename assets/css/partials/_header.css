@@ -1,91 +1,163 @@
-/* NavBar*/
+.header-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: end; /*Vertical*/
+  font-size: 20px;
+  width: 100%;
+}
+
+.a-container,
+img {
+  display: inline-flex;
+  /*border: 2px;
+  border-style: solid;
+  border-color: rgb(245, 241, 241);*/
+  max-width: 100%;
+  min-width: 200px;
+  max-height: auto;
+  padding: 5px;
+}
+
+.nav-container {
+  display: inline-flex;
+  color: azure;
+  /*border: 1px;
+  border-style: solid;
+  border-color: aqua;*/
+  width: 80%;
+  height: auto;
+  align-items: baseline;
+  justify-content: flex-end;
+}
 
 .menu_m,
-.menu_m1{
+.menu_m1 {
+  display: flex;
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
-  font-size: 20px; /* Preferred icon size */
-  /*display: inline-flex;*/
-  background-color: rgb(5, 54, 16);
-  line-height: 1.5;
-  text-transform: none;
+  font-size: 20px;
+  background-color: var(--bg-color);
+  line-height: normal;
+  /*text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
   white-space: nowrap;
-  direction: ltr;
+  direction: ltr;*/
   cursor: pointer;
-  z-index: 2;
 }
 
-.menu_m1
-{
-    background-color: rgb(231, 42, 216);
-  }
+.menu_m1 {
+  background-color: rgb(231, 42, 216);
+}
 
-.check
-{
+.check {
   display: none;
 }
 
-.header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: end; /*Vertical*/
-  }
-  
+.ul-container {
+  display: none;
+  border: 1px;
+  border-style: solid;
+  border-color: aqua;
+  font-size: 20px;
+  margin: 0px;
+  width: 0.2rem;
+  text-wrap: nowrap;
+  padding: 0px;
+  justify-content: end;
+}
+
+li {
+  display: none;
+  list-style: none;
+  text-wrap: nowrap;
+  padding: 0px 10px 0px 10px;
+}
+
+li > a{
+  color: white;
+  text-decoration: none;
+  --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+li > a::after {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  margin-top: 3px;
+  height: 3px;
+  display: block;
+  clip-path: var(--clip);
+  transition: clip-path 0.3s;
+}
+
+li > a:hover {
+  color: aliceblue;
+  --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+/* a:link - a normal, unvisited link
+  a:visited - a link the user has visited
+  a:hover - a link when the user mouses over it
+  a:active - a link the moment it is clicked*/
+
+/*.aside_grid {
+  grid-area: aside;
+}
+.main_grid {
+  grid-area: main;
+}
+.grid_container {
+  display: grid;
+  gap: 25px;
+  grid-template-areas: "aside aside madisplay: inline-flex;in main main main main";
+}
+
+/*Saltos: 320, entre 321 y 480, entre 481 y 760, 761 en adelante
+Menú de barrras, presente desde 760px para abajo, con isotipo centrado en pantalla)*/
+
+@media screen and ((min-width: 481px) and (max-width: 760px)) {
   /*.a-container {
-    text-decoration: none;
-    max-width: 15vw;
-    min-width: 100px;
-  }*/
-  
-  .a-container img {
-    /*display:inline-flex;*/
-    /*border: 2px;
-    border-style: solid;
-    border-color: black;*/
-    max-width: 60vw;
+    /*background-color: aquamarine;*/
+  /*   max-width: 60vw;
     min-width: 50px;
-    /*max-height: auto;*/
+    height: auto;*/
+
+  .menu_m,
+  .menu_m1 {
+    display: none;
   }
-  
-  .nav-container {
-    color: azure;
+
+  .ul-container {
     display: inline-flex;
-    padding: 0px;
-    width: 92vw;
-    align-items: flex-end;
-    justify-content: flex-end;
+    font-size: 15px;
   }
-  
-  ul {
-    display: none;
-    color: white;
-    /*width: 80vw;*/
-    margin: 0px;
-    /*width: 80vw;*/
-    text-wrap: nowrap;
-    padding: 0px;
-  }
-  
+
   li {
-    /* quitar viñetas */
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  .menu_m,
+  .menu_m1 {
     display: none;
-    list-style: none;
-    text-wrap: nowrap;
-    padding: 0px 20px 0px 20px;
-  }
-  .aside_grid{grid-area: aside; }
-  .main_grid{grid-area: main; }
-  .grid_container{
-    display:grid;
-    gap: 25px;
-    grid-template-areas: 'aside aside main main main main main';
   }
 
+  .ul-container {
+    display: inline-flex;
+  }
 
-  /*.check:checked + .menu{
+  li {
+    display: inline-flex;
+  }
+}
+
+
+/*.check:checked + .menu{
     display: grid;
     grid-auto-flow: row;
     position: fixed;
@@ -101,9 +173,6 @@
 /*.menu-hamb{
   display: inline-flex;
   }*/
-
-
-
 
 /*nav {
     position: sticky;
