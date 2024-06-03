@@ -5,16 +5,18 @@ footer {
     
 }
 
-.icono-footer {
-    padding: 10px;
-    width: 50px;
-    height: 45px;
+.img-footer>img {
+  display: inline-flex;
+  max-width:200px;
+  justify-content: center;
 }
 
-.redes-sociales a {
-    margin: 0px;
-    text-decoration: none;
-  }
+.icono-footer {
+    
+    max-width: 30px;
+    max-height: fit-content;
+}
+
 
   .copyright {
     color: #faf4f4;

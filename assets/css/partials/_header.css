@@ -19,8 +19,7 @@
   width: 100%;
 }
 
-.a-container,
-img {
+.a-container>img {
   display: inline-flex;
   /*border: 2px;
   border-style: solid;
