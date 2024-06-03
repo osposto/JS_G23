@@ -22,11 +22,11 @@
   
 }
 /*objetos de la página de contacto*/
-.formulario{
+.formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-around;
+  justify-content:center;
 }
 
 .linea-dato{

@@ -1,7 +1,7 @@
 .capa-superior {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  /*position: absolute;*/
   right: 0px;
   left: 0px;
   top: 0px;
@@ -70,16 +70,16 @@
 
 .ul-container {
   display: none; /*grid*/
-  grid-auto-flow: row;
-  position: fixed;
+  /*grid-auto-flow: row;*/
+  /*position: fixed;*/
   width: fit-content;
   height: fit-content;
   top: 80px;
   right: 0px;
   bottom: 800px;
   width: 50%;
-  background-color: var(--primary-color);
-  justify-content: space-around;
+  /*background-color: var(--primary-color);*/
+  /*justify-content: space-around;
   /*flex-direction: column;
   align-items:end;
   font-size: 20px;
