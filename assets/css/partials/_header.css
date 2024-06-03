@@ -125,32 +125,7 @@ li > a:hover {
   z-index: 2;
 }
 
-/* a:link - a normal, unvisited link
-  a:visited - a link the user has visited
-  a:hover - a link when the user mouses over it
-  a:active - a link the moment it is clicked*/
-
-/*.aside_grid {
-  grid-area: aside;
-}
-.main_grid {
-  grid-area: main;
-}
-.grid_container {
-  display: grid;
-  gap: 25px;
-  grid-template-areas: "aside aside madisplay: inline-flex;in main main main main";
-}
-
-/*Saltos: 320, entre 321 y 480, entre 481 y 760, 761 en adelante
-Menú de barrras, presente desde 760px para abajo, con isotipo centrado en pantalla)*/
-
 @media screen and ((min-width: 481px) and (max-width: 760px)) {
-  /*.a-container {
-    /*background-color: aquamarine;*/
-  /*   max-width: 60vw;
-    min-width: 50px;
-    height: auto;*/
 
   .capa-superior {
     display: none;
@@ -186,41 +161,3 @@ Menú de barrras, presente desde 760px para abajo, con isotipo centrado en panta
   }
 }
 
-/*.check:checked + .menu{
-    display: grid;
-    grid-auto-flow: row;
-    position: fixed;
-    top: 90px;
-    right: 0px;
-    
-    width: 50%;
-    background-color: var(--head-back);
-    justify-content: center;
-    z-index: 2;
-  }*/
-
-/*.menu-hamb{
-  display: inline-flex;
-  }*/
-
-/*nav {
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    background-color: var(--bg-color);
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-}
-
-nav h1 {
-    color: var(--primary-color);
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;    
-    gap: 40px;
-}*/
-: column

@@ -1,6 +1,20 @@
 footer {
     background-color: var(--bg-color);
-    padding: 30px;
     text-align: center;
-    margin: 0;
+    
+}
+
+.img-footer{
+
+    display: flex;
+    height: auto;
+
+}
+
+.icono-footer {
+    display: flex;
+    flex-direction: row;
+    width: 0.1rem;
+    
+
 }
