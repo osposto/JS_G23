@@ -7,7 +7,7 @@
 :root {
   --font-family: "Roboto", sans-serif;
   --bg-color: #72c562; 
-  --primary-color: #2a403d;
+  --primary-color: #01331e;
   --secondary-color: blue;
   --clip1: polygon(0 0, 0 0, 0 100%, 0% 100%);
   --clip0: polygon(0 0, 100% 0, 100% 100%, 0 100%);

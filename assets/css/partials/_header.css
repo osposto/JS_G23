@@ -1,3 +1,16 @@
+.capa-superior {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: auto;
+  height: 100%;
+  z-index: 2;
+}
+
 .header-container {
   display: inline-flex;
   flex-direction: row;
@@ -27,7 +40,12 @@ img {
   width: 80%;
   height: auto;
   align-items: baseline;
-  justify-content: flex-end;
+  justify-content: end;
+}
+
+.icono-menu {
+  display: inline-flex;
+  padding: 0.75rem;
 }
 
 .menu_m,
@@ -37,48 +55,56 @@ img {
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
-  background-color: var(--bg-color);
+  background-color: unset;
   line-height: normal;
-  /*text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;*/
   cursor: pointer;
+  z-index: 2;
 }
 
-.menu_m1 {
+/*.menu_m1 {
   background-color: rgb(231, 42, 216);
-}
+}*/
 
 .check {
   display: none;
 }
 
 .ul-container {
-  display: none;
-  border: 1px;
-  border-style: solid;
-  border-color: aqua;
+  display: grid;
+  grid-auto-flow: row;
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  top: 80px;
+  right: 0px;
+  bottom: 800px;
+  width: 50%;
+  background-color: var(--primary-color);
+  justify-content: space-around;
+  /*flex-direction: column;
+  align-items:end;
   font-size: 20px;
   margin: 0px;
-  width: 0.2rem;
+  width: 0.2rem;*/
+  padding: 10px;
   text-wrap: nowrap;
-  padding: 0px;
-  justify-content: end;
+  z-index: 2;
 }
 
 li {
-  display: none;
   list-style: none;
   text-wrap: nowrap;
   padding: 0px 10px 0px 10px;
+  align-items: end;
+  justify-content: right;
+  z-index: 2;
 }
 
-li > a{
+li > a {
   color: white;
   text-decoration: none;
   --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  z-index: 2;
 }
 
 li > a::after {
@@ -90,14 +116,14 @@ li > a::after {
   display: block;
   clip-path: var(--clip);
   transition: clip-path 0.3s;
+  z-index: 2;
 }
 
 li > a:hover {
   color: aliceblue;
-  --clip: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  --clip: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 2;
 }
-
-
 
 /* a:link - a normal, unvisited link
   a:visited - a link the user has visited
@@ -125,6 +151,10 @@ Menú de barrras, presente desde 760px para abajo, con isotipo centrado en panta
   /*   max-width: 60vw;
     min-width: 50px;
     height: auto;*/
+
+  .capa-superior {
+    display: none;
+  }
 
   .menu_m,
   .menu_m1 {
@@ -155,7 +185,6 @@ Menú de barrras, presente desde 760px para abajo, con isotipo centrado en panta
     display: inline-flex;
   }
 }
-
 
 /*.check:checked + .menu{
     display: grid;
