@@ -69,7 +69,7 @@
 }
 
 .ul-container {
-  display: grid;
+  display: none; /*grid*/
   grid-auto-flow: row;
   position: fixed;
   width: fit-content;

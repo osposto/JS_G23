@@ -13,7 +13,7 @@
 }
 
 .img-pallet {
-  display: inline-flex;
+  display: inlincol-md-4e-flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
@@ -21,7 +21,28 @@
   padding: 10px;
   
 }
+/*objetos de la página de contacto*/
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
 
+.linea-dato{
+  display:inline-flex;
+  padding: 15px;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.form-label{
+  padding: 10px;
+  
+}
+.form-dato {
+  
+}
 
 @media screen and ((min-width: 650px) and (max-width: 760px)) {
   .img-container{

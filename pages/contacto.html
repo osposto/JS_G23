@@ -53,89 +53,82 @@
     </header>
 
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-9"></div>
-
-          <form
-            class="row g-3 needs-validation"
-            action="https://formspree.io/f/xzbllqyy"
-            method="post"
-          >
-            <div class="col-md-4">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nombre"
-                name="nombre"
-                required
-              />
-            </div>
-            <div class="col-md-4">
-              <label for="apellido" class="form-label">Apellido</label>
-              <input
-                type="text"
-                class="form-control"
-                id="apellido"
-                name="apellido"
-                required
-              />
-            </div>
-            <p></p>
-            <div class="col-md-4">
-              <label for="correo" class="form-label">Ingrese el correo</label>
-              <div class="input-group has-validation">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="correo"
-                  name="correo"
-                  aria-describedby="inputGroupPrepend"
-                  required
-                />
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="mensaje-01" class="form-label">Mensaje</label>
-              <textarea
-                class="form-control"
-                id="mensaje-01"
-                name="mensaje"
-                rows="3"
-              ></textarea>
-            </div>
-
-            <div class="col-12">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="invalidCheck"
-                  required
-                />
-                <label class="form-check-label" for="invalidCheck">
-                  Estoy de acuerdo con los téminos y condiciones.
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <button
-                class="btn btn-primary"
-                type="submit"
-                style="margin-bottom: 15px"
-              >
-                Enviar formulario
-              </button>
-            </div>
-          </form>
+      
+      <form class="formulario" method="post">
+        <br><br><br>
+        <h2>Formulario de contacto</h2>
+        <div class="linea-dato">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input
+            type="text"
+            class="form-dato"
+            id="nombre"
+            name="nombre"
+            required
+          />
         </div>
-      </div>
+        <div class="linea-dato">
+          <label for="apellido" class="form-label">Apellido:</label>
+          <input
+            type="text"
+            class="form-dato"
+            id="apellido"
+            name="apellido"
+            required
+          />
+        </div>
+        <div class="linea-dato">
+          <label for="correo" class="form-label">Email:</label>
+          <div class="input-group has-validation">
+            <input
+              type="email"
+              class="form-dato"
+              id="correo"
+              name="correo"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="linea-dato">
+          <label for="mensaje-01" class="form-label">Mensaje:</label>
+          <textarea
+            class="form-dato"
+            id="mensaje-01"
+            name="mensaje"
+            cols="50"
+            rows="8"
+            ;
+          ></textarea>
+        </div>
+
+        <div class="linea-dato">
+          <div class="form-label">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="invalidCheck"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck">
+              Estoy de acuerdo con los téminos y condiciones.
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button
+            class="btn btn-primary"
+            type="submit"
+            style="margin-bottom: 15px"
+          >
+            Enviar formulario
+          </button>
+        </div>
+      </form>
     </main>
 
     <footer>
