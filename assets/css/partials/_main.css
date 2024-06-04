@@ -13,7 +13,7 @@
 }
 
 .img-pallet {
-  display: inlincol-md-4e-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;

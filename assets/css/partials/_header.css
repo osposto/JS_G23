@@ -1,13 +1,13 @@
 .capa-superior {
-  display: none;
+  display:none;
   background-color: rgba(0, 0, 0, 0.5);
-  /*position: absolute;*/
-  right: 0px;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: auto;
+  position: fixed;
+  width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 2;
 }
 
@@ -40,6 +40,8 @@
   height: auto;
   align-items: baseline;
   justify-content: end;
+  z-index: 2;
+
 }
 
 .icono-menu {
@@ -69,33 +71,28 @@
 }
 
 .ul-container {
-  display: none; /*grid*/
-  /*grid-auto-flow: row;*/
-  /*position: fixed;*/
-  width: fit-content;
-  height: fit-content;
+  display:none; /*grid*/
+  grid-auto-flow: row;
+  position: absolute;
+ /* width: fit-content;
+  height: fit-content;*/
   top: 80px;
-  right: 0px;
-  bottom: 800px;
-  width: 50%;
-  /*background-color: var(--primary-color);*/
-  /*justify-content: space-around;
-  /*flex-direction: column;
-  align-items:end;
-  font-size: 20px;
-  margin: 0px;
-  width: 0.2rem;*/
-  padding: 10px;
-  text-wrap: nowrap;
-  z-index: 2;
+  left: 140px;
+  /*right: 0px;*/
+  /*bottom: 800px;*/
+  /*width: 50%;*/
+  /*justify-content: ;*/
+  padding:10px;
+/*  align-content:end;*/
+  justify-content:end;
+    z-index: 2;
 }
 
 li {
   list-style: none;
   text-wrap: nowrap;
-  padding: 0px 10px 0px 10px;
-  align-items: end;
-  justify-content: right;
+  padding: 10px 10px 10px 10px;
+  justify-content: end;
   z-index: 2;
 }
 
