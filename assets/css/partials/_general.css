@@ -26,3 +26,45 @@
 body {
   font-family: var(--font-family);
 }
+
+
+@media screen and ((min-width: 650px) and (max-width: 760px)) {
+  .img-container{
+    flex-direction: row;
+  }
+}
+
+
+
+@media screen and ((min-width: 600px) ) {
+
+  .capa-superior {
+    display: none;
+  }
+
+  .menu_m,
+  .menu_m1 {
+    display: none;
+  }
+
+  .ul-cont1 {
+    display: inline-flex;
+   
+  }
+
+  li {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 761px) {
+  .img-container{
+    flex-direction: row;
+    justify-content:space-evenly
+  }
+  .img-pallet {
+    max-width: 600px;
+     
+  }
+
+}

@@ -1,7 +1,7 @@
 .principal {
   justify-content: left;
   margin: 10px;
-  color: rgb(14, 32, 2);
+  color: var(--font-color); /* rgb(14, 32, 2); */
 }
 
 .img-container{

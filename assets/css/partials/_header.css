@@ -32,7 +32,7 @@
 
 .nav-container {
   display: inline-flex;
-  color: azure;
+  color: var(--font-color); /* azure;*/
   /*border: 1px;
   border-style: solid;
   border-color: aqua;*/
@@ -92,7 +92,7 @@ li {
 }
 
 li > a {
-  color: white;
+  color: var(--font-color); /* white;*/
   text-decoration: none;
   --clip: polygon(0 0, 0 0, 0 100%, 0% 100%);
   z-index: 2;
@@ -100,7 +100,7 @@ li > a {
 
 li > a::after {
   content: "";
-  background-color: #fff;
+  background-color: vr(--font-color); /*#fff;*/
   width: 100%;
   margin-top: 3px;
   height: 3px;
@@ -111,28 +111,9 @@ li > a::after {
 }
 
 li > a:hover {
-  color: aliceblue;
+  color: var(--font-color); /* aliceblue;*/
   --clip: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
   z-index: 2;
 }
 
-@media screen and ((min-width: 600px) ) {
 
-  .capa-superior {
-    display: none;
-  }
-
-  .menu_m,
-  .menu_m1 {
-    display: none;
-  }
-
-  .ul-cont1 {
-    display: inline-flex;
-   
-  }
-
-  li {
-    display: inline-flex;
-  }
-}
