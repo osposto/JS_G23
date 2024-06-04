@@ -17,31 +17,36 @@
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  min-width: 300px;
+  min-width: 320px;
   padding: 10px;
   
 }
 /*objetos de la página de contacto*/
 .formulario {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  /*justify-content:center;*/
 }
 
 .linea-dato{
-  display:inline-flex;
+  display:flex;
+  flex-wrap: wrap;
   padding: 15px;
-  align-items:center;
-  justify-content:space-between;
+  /*align-items:center;*/
+  /*justify-content:space-between;*/
 }
 
 .form-label{
+  display: flex;
+  flex-wrap: wrap;
   padding: 10px;
   
 }
 .form-dato {
-  
+display: flex;  
+flex-wrap: wrap;
 }
 
 @media screen and ((min-width: 650px) and (max-width: 760px)) {
