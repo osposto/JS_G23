@@ -16,9 +16,8 @@ footer {
 .icono-footer {
     width:30px;
     height:30px;
-    /*viewBox: 0 0 30 30;
-    max-width: 30px;
-    max-height: fit-content;*/
+    max-width: 80px;
+    max-height: fit-content;
     margin: 10px 10px 10px 10px;
     fill: var(--font-color);
     stroke: var(--font-color);
