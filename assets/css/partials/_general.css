@@ -1,3 +1,30 @@
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 1000*/
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.roboto-flex-normalfont {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 416,
+    "YTUC" 760;
+}
+
+
+
+
 @font-face {
   font-family: "Material Symbols Outlined";
   font-style: normal;
@@ -10,6 +37,8 @@
   padding: 0;
   box-sizing: border-box;
   /* border: 1px solid red;*/
+  font-family: 'Roboto Flex';
+  font-size: 20px;
 }
 
 #gradiente {
