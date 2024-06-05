@@ -3,6 +3,7 @@
  <weight>: Use a value from 100 to 1000*/
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
+
 .roboto-flex-normalfont {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
@@ -12,12 +13,12 @@
     "slnt" 0,
     "wdth" 100,
     "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
+    "XOPQ" 27,
+    "XTRA" 323,
+    "YOPQ" 25,
+    "YTAS" 649,
+    "YTDE" -305,
+    "YTFI" 788,
     "YTLC" 416,
     "YTUC" 760;
 }
