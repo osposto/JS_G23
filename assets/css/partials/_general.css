@@ -7,20 +7,20 @@
 .roboto-flex-normalfont {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "slnt" 0,
     "wdth" 100,
     "GRAD" 0,
-    "XOPQ" 27,
-    "XTRA" 323,
-    "YOPQ" 25,
-    "YTAS" 649,
-    "YTDE" -305,
-    "YTFI" 788,
-    "YTLC" 416,
-    "YTUC" 760;
+    "XOPQ" 88,
+    "XTRA" 400,
+    "YOPQ" 116,
+    "YTAS" 750,
+    "YTDE" -250,
+    "YTFI" 600,
+    "YTLC" 500,
+    "YTUC" 725;
 }
 
 
