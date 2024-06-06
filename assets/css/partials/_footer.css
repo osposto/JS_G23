@@ -13,14 +13,33 @@ footer {
   justify-content: center;
 }
 
-.icono-footer {
-    width:30px;
-    height:30px;
-    max-width: 80px;
-    max-height: fit-content;
-    margin: 10px 10px 10px 10px;
-    fill: var(--font-color);
-    stroke: var(--font-color);
-    stroke-width:0px;
+.bi {
+   margin: 20px;
+  font-size: 40px;
+}
+
+.bi-facebook {
+    color: rgb(17, 82, 223);
+    background-color: white;
+  
+}
+.bi-instagram {
+  color: rgb(255, 255, 255);
+  background-color: rgb(226, 73, 73);
+}
+
+.bi-pinterest {
+  color: rgb(252, 21, 21);
+  background-color: rgb(255, 255, 255);
+}
+
+.bi-linkedin {
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 82, 223);
+}
+
+.bi-twitter {
+  color: rgb(255, 255, 255);
+  background-color: rgb(226, 73, 73);
 }
 
